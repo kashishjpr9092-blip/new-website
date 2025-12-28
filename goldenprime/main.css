@@ -1,0 +1,496 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.parent-div-for-header {
+    display: flex;
+    align-items: center;
+}
+
+.parent-div-for-header {
+    padding: calc(24px);
+    padding-top: 0;
+}
+
+.parent-div-for-header img {
+    height: auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.for-navigation-schedule {
+    display: flex;
+}
+
+.navigation-method ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+}
+
+.navigation-method ul li:hover {
+    color: #f05448;
+    font-weight: 500;
+
+
+}
+
+.parent-div-for-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e5dfd3;
+    border-bottom: 2px solid #F05448;
+}
+
+.navigation-method {
+    display: flex;
+    align-items: center;
+}
+
+.for-header-button button {
+
+    margin-left: 25px;
+    background-color: #f05448;
+    padding: .625rem 1.125rem;
+    color: white;
+    font-weight: 700;
+    max-width: 250px;
+    border: 1px solid #f05448;
+    border-radius: 20px;
+}
+
+.for-header-button button:hover {
+    background: white;
+    color: #f05448;
+}
+
+@media screen and (max-width: 767px) {
+    .parent-div-for-header {
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navigation-method ul li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .for-header-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .parent-div-for-header img {
+        height: auto;
+        width: 200px;
+
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form-section-parent {
+        display: grid !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form2part.for-header-button {
+        display: block;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.main-section-form {
+    background-color: #f2ece1;
+    background-image: linear-gradient(#0000 80%, #f1ebe0), linear-gradient(#fff9ef99, #fff9ef99), url(../goldenprime/images/pngtree-bed-rest-bedroom-five-star-hotel-image_990208.jpg);
+    background-position: 0 0, 0 0, 50%;
+    background-size: auto, auto, cover;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 5%;
+    display: flex;
+    overflow: hidden;
+}
+
+.form-section-parent {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form1-part-left button {
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    background: #F05448;
+    border: 1px solid #F05448;
+}
+
+.form2part {
+    border: 3px solid #F05448;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.for-form input {
+    border: 1px solid grey;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.navigation-method a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-method a:hover {
+    color: #F05448;
+    text-decoration: none;
+}
+
+.for-form h2 {
+    margin: 0;
+}
+
+.for-form input:placeholder {
+    text-align: center;
+}
+
+.for-form button {
+    margin-left: 0;
+}
+
+
+.max-w-7xl {
+    max-width: 80rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-w-7xl {
+    max-width: 80rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+.flex.justify-center.-mb-16 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 90px;
+}
+
+.flex.justify-center.mt-6 {
+    display: flex;
+    gap: 90px;
+}
+
+.flex.flex-col.items-center.justify-center.text-center.p-5.border {
+    text-align: center;
+}
+
+.navigation-method ul li:hover {
+    color: #f05448;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .flex.justify-center.-mb-16 {
+        display: flex;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 0px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flex.justify-center.mt-6 {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+
+    }
+
+    .for-about-section ul {
+        padding: 0;
+    }
+
+    .fotter-main-parent {
+        display: grid !important;
+        justify-content: center;
+        background: #e5dfd3;
+        padding: 0 !important;
+        padding-top: 20px !important;
+        gap: 0 !important;
+    }
+
+    .for-logo {
+        display: block !important;
+    }
+
+    .for-about-section h2 {
+        margin: 0;
+        font-size: 18px;
+        color: red;
+    }
+
+    .for-about-section h1 {
+        margin: 0;
+        font-size: 18px;
+        color: red;
+    }
+
+    .for-about-section source img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .for-about-section .for-increse-size {
+        font-size: 18px;
+        color: red;
+    }
+
+}
+
+.active {
+    background: #fff;
+}
+
+.fotter-main-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.fotter-main-parent .for-logo img {
+    height: auto;
+    width: 200px;
+}
+
+.for-about-section ul li {
+    font-size: 16px;
+    list-style: none;
+    color: black;
+    line-height: 2.1;
+}
+
+.fotter-main-parent {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: #e5dfd3;
+    gap: 20px;
+}
+
+.for-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-about-section p {
+    margin: 0;
+}
+
+.for-about-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.for-about-section .for-increse-size {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.instagram-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.instagram-icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-align-center {
+    text-align: center;
+    background: pink;
+}
+
+.email-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.email-icon svg {
+    height: 40px;
+    width: 40px;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+section.facilities {
+    text-align: center;
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.gallery img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+section.gallery {
+    text-align: center;
+    padding-top: 40px;
+}
+.most-valueablecustomer img {
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.most-valueablecustomer h1 {
+    font-size: 18px;
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.slider {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #fff;
+}
+
+.slide:nth-child(1) { background: #ff6b6b; }
+.slide:nth-child(2) { background: #4dabf7; }
+.slide:nth-child(3) { background: #51cf66; }
+
+/* Navigation */
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+/* Dots */
+.dots {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dots span.active {
+  background: #000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .slide {
+    height: auto;
+    font-size: 22px;
+  }
+  section.gallery{
+    padding: 10px;
+  }
+}
+.slide img {
+    width: 100%;
+}
+ #gallery{
+scroll-margin-top: 175px;
+ }
